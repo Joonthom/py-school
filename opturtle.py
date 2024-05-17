@@ -25,8 +25,8 @@
 
 import turtle
 
-s = turtle.getscreen()
-turtle.exitonclick()
+# s = turtle.getscreen()
+# turtle.exitonclick()
 
 t = turtle.Turtle()
 t.pendown()
