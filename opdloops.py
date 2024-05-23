@@ -65,7 +65,7 @@ a.up()
 a.goto(START_LINE -50, -150)
 a.right(360)
 
-# while loop die er voor zorgt dat ze stoppen zodra de eerste over de finish is.
+# While loop die er voor zorgt dat ze stoppen zodra de eerste over de finish is.
 while a.xcor() < FINISH_LINE and b.xcor() < FINISH_LINE and c.xcor() < FINISH_LINE and a.xcor() < FINISH_LINE:
    a.forward(randint(1, 6))
    b.forward(randint(1, 6))
