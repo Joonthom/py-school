@@ -5,22 +5,22 @@ from random import randint
 screen = Screen()
 screen.setup(1000, 600) 
 
-# Pijlicoon en snelheid
+# Pijlicoon en Snelheid
 t = Turtle(visible=False)
 t.speed('fastest')        
 
-# maakt een startline en een finishlijn variabele. 
+# Dit maakt een startline en een finishlijn variabele. 
 START_LINE = -300 
 FINISH_LINE = 300
 
-# teken de horizontale lijnen 
+# Dit tekent de horizontale lijnen 
 for y in range(-200, 300, 100):
    t.up() 
    t.goto(START_LINE - 100, y) 
    t.down() 
    t.forward((FINISH_LINE + 90) - (START_LINE - 100))
 
-# Start en Finishgates
+# Dit maakt de Start en Finishgates
 for x in [START_LINE - 100, FINISH_LINE - 10]:
    t.up() 
    t.goto(x,200) 
@@ -35,6 +35,7 @@ for x in [START_LINE - 100, FINISH_LINE - 10]:
 
 # Kandidaat 1
 d = Turtle('turtle')
+d.shape("arrow")
 d.color('red')
 d.speed(5)
 d.up()
@@ -51,6 +52,7 @@ c.right(360)
 
 # Kandidaat 3
 b = Turtle('turtle')
+b.shape("arrow")
 b.color('yellow')
 b.speed(5)
 b.up()
