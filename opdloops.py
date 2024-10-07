@@ -13,7 +13,7 @@ t.speed('fastest')
 START_LINE = -300 
 FINISH_LINE = 300
 
-# Dit tekent de horizontale lijnen 
+# Dit tekent de start en finish lijnen .
 for y in range(-200, 300, 100):
    t.up() 
    t.goto(START_LINE - 100, y) 
@@ -75,6 +75,6 @@ while a.xcor() < FINISH_LINE and b.xcor() < FINISH_LINE and c.xcor() < FINISH_LI
    d.forward(randint(1, 6))
 screen.mainloop()
 
-# Dit als laatste lijn houden
+# Dit als laatste lijn houden!!
 s = turtle.getscreen()
 turtle.exitonclick()

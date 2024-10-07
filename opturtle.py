@@ -26,6 +26,6 @@ t.dot(20)
 # t.rt(90)
 # t.fd(100)
 
-#Dit als laatste lijn houden
+#Dit als laatste lijn houden!!
 s = turtle.getscreen()
 turtle.exitonclick()

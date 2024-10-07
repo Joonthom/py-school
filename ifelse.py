@@ -34,6 +34,6 @@ else:
    print("Er is iets fout gegaan")
    turtle.bgcolor("red")
 
-#Dit als laatste lijn houden
+#Dit als laatste lijn houden!!
 s = turtle.getscreen()
 turtle.exitonclick()
