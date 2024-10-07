@@ -2,7 +2,7 @@ import turtle
 
 t = turtle.Turtle()
 t.speed(1)
-#t.pendown()
+t.pendown()
 
 # #Square
 # t.goto(0, -100)
@@ -16,13 +16,15 @@ t.speed(1)
 # t.goto(0,0)
 # t.home()
 
-# # #Circle met achtergrond
-# # turtle.bgcolor("blue")
+# #Circle met achtergrond
+turtle.bgcolor("blue")
+#t.circle(60)
+t.dot(20)
 
-t.pendown()
-t.fd(100)
-t.rt(90)
-t.fd(100)
+# t = turtle.Turtle()$
+# t.pendown()
+# t.rt(90)
+# t.fd(100)
 
 #Dit als laatste lijn houden
 s = turtle.getscreen()
